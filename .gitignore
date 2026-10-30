@@ -1,0 +1,10 @@
+cat > .gitignore << 'EOF'
+build/
+*.o
+*.obj
+docs/html/
+docs/latex/
+Doxyfile.bak
+.vscode/
+.idea/
+EOF
